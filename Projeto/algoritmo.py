@@ -11,16 +11,19 @@ def main():
 
             match deseja:
                 case "1":
+                    print("===Adicionar===")
                     descri = input("Digite a tarefa: ")
                     objeto.adicionar_tarefa(descri)
                     os.system("pause")
                     os.system("cls")
                 case "2":
+                    print("===Excluir===")
                     index = int(input("Qual é o numero da tarfe que deseja excluir \n-"))
                     objeto.excluir_tarefa(index)
                     os.system("pause")
                     os.system("cls")
                 case "3":
+                    print("===Listar===")
                     objeto.listar_tarefas()
                     os.system("pause")
                     os.system("cls")
