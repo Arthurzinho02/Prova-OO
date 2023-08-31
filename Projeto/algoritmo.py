@@ -26,7 +26,7 @@ def main():
                     os.system("cls")
                 case  "4":
                     menu = False
-                case '_':
+                case _:
                     print("Opção inválida")
                     os.system("pause")
                     os.system("cls")
