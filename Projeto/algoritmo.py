@@ -18,7 +18,7 @@ def main():
                     os.system("cls")
                 case "2":
                     print("===Excluir===")
-                    index = int(input("Qual é o numero da tarfe que deseja excluir \n-"))
+                    index = int(input("Qual é o numero da tarefas que deseja excluir \n-"))
                     objeto.excluir_tarefa(index)
                     os.system("pause")
                     os.system("cls")
